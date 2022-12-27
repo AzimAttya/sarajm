@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: rgb(135, 220, 244);
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px
+    
+
+}
+.logo {
+    display: flex;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: 0.8s
+
+}
+.logo:hover {
+    color: rgb(118, 118, 223);
+}
+.nav a {
+    font-size: 1.4;
+    font-weight: 400;
+    color: white;
+    padding-left: 25px;
+    transition: 0.8s;
+
+}
+.nav a:hover {
+    color: rgb(118, 118, 223);
+}
+a {
+    text-decoration: none;
+}
